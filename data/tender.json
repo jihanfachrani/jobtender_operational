@@ -1,0 +1,164 @@
+{
+"informasi_tender":{
+
+"judul":"Job Tender Internal AirNav Indonesia",
+"periode":"Maret 2026",
+"batas_pendaftaran":"16 Maret 2026 - 12.00 WIB"
+
+},
+
+"jabatan":[
+
+{
+"jabatan":"Manager TWR-APP/TMA",
+"lokasi":"JATSC",
+"level":"16"
+},
+
+{
+"jabatan":"Manager Komunikasi Penerbangan",
+"lokasi":"JATSC",
+"level":"14"
+},
+
+{
+"jabatan":"Manager Operasi",
+"lokasi":"Ambon",
+"level":"14"
+},
+
+{
+"jabatan":"Manager Operasi",
+"lokasi":"Wamena",
+"level":"14"
+}
+
+],
+
+"seleksi_administratif":{
+
+"mandatory":[
+
+{
+"aspek":"Catatan Hukuman Disiplin",
+"rincian":"Tidak memiliki hukuman disiplin dalam 2 tahun terakhir",
+"teknis":"Ya / Tidak"
+},
+
+{
+"aspek":"Level Jabatan",
+"rincian":"Maksimal 2 level dari jabatan yang dilamar",
+"teknis":"Ya / Tidak"
+},
+
+{
+"aspek":"Kategori 9 Box",
+"rincian":"Minimal kategori Key Contributor",
+"teknis":"Ya / Tidak"
+},
+
+{
+"aspek":"Skor TOEFL",
+"rincian":"Minimal TOEFL 550",
+"teknis":"Ya / Tidak"
+}
+
+],
+
+"ranking":[
+
+{
+"aspek":"Riwayat Pengalaman",
+"rincian":"Pengalaman kerja pada unit operasional yang relevan",
+"bobot":"30%"
+},
+
+{
+"aspek":"Kinerja Pegawai",
+"rincian":"Nilai kinerja minimal 2 tahun terakhir",
+"bobot":"30%"
+},
+
+{
+"aspek":"Kompetensi Teknis",
+"rincian":"Kemampuan teknis sesuai bidang jabatan",
+"bobot":"20%"
+},
+
+{
+"aspek":"Kompetensi Manajerial",
+"rincian":"Kemampuan kepemimpinan dan pengambilan keputusan",
+"bobot":"20%"
+}
+
+]
+
+},
+
+"tahap_wawancara":[
+
+{
+"aspek":"Pengalaman Manajerial",
+"rincian":"Menjelaskan pengalaman dalam memimpin tim atau unit kerja"
+},
+
+{
+"aspek":"Analisis Permasalahan Operasional",
+"rincian":"Peserta diminta melakukan analisis terhadap isu operasional perusahaan"
+},
+
+{
+"aspek":"Presentasi",
+"rincian":"Memaparkan hasil analisis kepada panel penguji"
+},
+
+{
+"aspek":"Tanya Jawab",
+"rincian":"Diskusi dengan panel terkait strategi dan solusi yang diusulkan"
+}
+
+],
+
+"jadwal":[
+
+{
+"tahap":"Pengumuman Job Tender",
+"tanggal":"1 Juli 2026"
+},
+
+{
+"tahap":"Pembukaan Pendaftaran",
+"tanggal":"1 Juli 2026"
+},
+
+{
+"tahap":"Penutupan Pendaftaran",
+"tanggal":"10 Juli 2026",
+"waktu":"12.00 WIB"
+},
+
+{
+"tahap":"Seleksi Administratif",
+"tanggal":"12 Juli 2026"
+},
+
+{
+"tahap":"Wawancara Kandidat",
+"tanggal":"20 Juli 2026"
+},
+
+{
+"tahap":"Penetapan Kandidat Terpilih",
+"tanggal":"28 Juli 2026"
+},
+
+{
+"tahap":"Pengumuman Hasil",
+"tanggal":"30 Juli 2026"
+}
+
+]
+
+}
+
+

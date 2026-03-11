@@ -1,2 +1,2 @@
-# jobtender_qr
+# sistem_qr
 spesifikasi job tender
