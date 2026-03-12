@@ -217,23 +217,32 @@ color:#003366;
 RESPONSIVE MOBILE
 ===================== */
 
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-        padding: 20px;
-    }
+@media (max-width:768px){
 
-    .card {
-        width: 100%;
-        max-width: 100%;
-    }
+.container{
 
-    table, th, td {
-        font-size: 14px;
-        white-space: nowrap;
-    }
+width:95%;
+padding:20px;
 
-    header {
-        padding: 20px;
-    }
+}
+
+.card{
+
+width:100%;
+max-width: 100%;
+
+}
+
+table{
+
+font-size:14px;
+
+}
+
+header{
+
+padding:20px;
+
+}
+
 }
