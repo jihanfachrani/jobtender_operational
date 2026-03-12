@@ -53,21 +53,6 @@ adminTable.innerHTML += `
 
 })
 
-// // Ranking
-// data.seleksi_administratif.ranking.forEach(r => {
-
-// adminTable.innerHTML += `
-
-// <tr>
-// <td>${r.aspek}</td>
-// <td>${r.rincian}</td>
-// <td><span class="badge ranking">Ranking</span></td>
-// </tr>
-
-// `
-
-// })
-
 // Ranking (3 aspek) dengan merge kolom metode + badge
 const ranking = data.seleksi_administratif.ranking;
 if (ranking.length > 0) {
