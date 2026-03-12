@@ -246,3 +246,32 @@ padding:20px;
 }
 
 }
+
+/* =====================
+FOOTER
+===================== */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffe600;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer responsive */
+@media (max-width: 768px) {
+    footer {
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+}
