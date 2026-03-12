@@ -47,28 +47,48 @@ adminTable.innerHTML += `
 <td>${m.aspek}</td>
 <td>${m.rincian}</td>
 <td><span class="badge mandatory">${m.metode}</span></td>
-<td>${m.teknis}</td>
 </tr>
 
 `
 
 })
 
-// Ranking
-data.seleksi_administratif.ranking.forEach(r => {
+// // Ranking
+// data.seleksi_administratif.ranking.forEach(r => {
 
-adminTable.innerHTML += `
+// adminTable.innerHTML += `
 
-<tr>
-<td>${r.aspek}</td>
-<td>${r.rincian}</td>
-<td><span class="badge ranking">Ranking</span></td>
-<td>${r.bobot}</td>
-</tr>
+// <tr>
+// <td>${r.aspek}</td>
+// <td>${r.rincian}</td>
+// <td><span class="badge ranking">Ranking</span></td>
+// </tr>
 
-`
+// `
 
-})
+// })
+
+// Ranking (3 aspek) dengan merge kolom metode + badge
+const ranking = data.seleksi_administratif.ranking;
+if (ranking.length > 0) {
+  adminTable.innerHTML += `
+    <tr>
+      <td>${ranking[0].aspek}</td>
+      <td>${ranking[0].rincian}</td>
+      <td rowspan="${ranking.length}">
+        <span class="badge ranking">Ranking</span>
+      </td>
+    </tr>
+  `;
+  for (let i = 1; i < ranking.length; i++) {
+    adminTable.innerHTML += `
+      <tr>
+        <td>${ranking[i].aspek}</td>
+        <td>${ranking[i].rincian}</td>
+      </tr>
+    `;
+  }
+}
 
 
 /* =========================
