@@ -34,42 +34,42 @@
 
       {
         "aspek": "Catatan Hukuman",
-        "rincian": "Tidak memiliki hukuman disiplin dalam 2 tahun terakhir",
+        "rincian": "Tidak memiliki catatan hukuman disiplin dalam 2 tahun terakhir",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       },
 
       {
         "aspek": "Level Jabatan",
-        "rincian": "Maksimal 2 level dari jabatan sasaran",
+        "rincian": "Memiliki Jarak Level maksimal 2 level dari jabatan sasaran",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       },
 
       {
         "aspek": "Kategori 9 Box",
-        "rincian": "Berada pada kategori Star, Possible Future Star atau Key Contributor",
+        "rincian": "Berada pada kategori Star, Possible Future Star atau Key Contributor pada 9-Box Matrix perusahaan",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       },
 
       {
         "aspek": "Kompetensi Khusus",
-        "rincian": "Kandidat harus memiliki kompetensi Surveillance untuk Pelayanan Surveillance, dan kompetensi minimal Approach Control Procedural untuk lokasi non-surveillance.",
+        "rincian": "Kandidat harus memiliki kompetensi dan rating Surveillance untuk lokasi dengan Pelayanan Surveillance, dan kompetensi minimal Approach Control Procedural untuk lokasi dengan pelayanan non-surveillance.",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       },
 
       {
         "aspek": "Skor TOEFL",
-        "rincian": "Minimal TOEFL 550 untuk jabatan Manager Operasi/ Manager TWR-APP/TMA, dan Min TOEFL 500 untuk Jabatan Manager Komunikasi Penerbangan",
+        "rincian": "Memiliki minimal TOEFL 550 untuk jabatan Manager Operasi/ Manager TWR-APP/TMA, dan Minimal TOEFL 500 untuk Jabatan Manager Komunikasi Penerbangan. Dokumen dapat dikumpulkan melalui email HR yang tertera pada flyer.",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       },
 
       {
         "aspek": "Rekomendasi Atasan",
-        "rincian": "Memiliki rekomendasi dari Atasan setingkat BOD-1",
+        "rincian": "Memperoleh Rekomendasi  Atasan setingkat BOD-1",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
       }
@@ -80,13 +80,13 @@
 
       {
         "aspek": "Hasil Penilaian Kinerja",
-        "rincian": "Memiliki Nilai kinerja tahun 2025 pada kategori High Performer",
+        "rincian": "Diutamakan memiliki hasil penilaian kinerja tahun 2025 pada kategori High Performer",
         "Skor": ""
       },
 
       {
         "aspek": "Hasil Penilaian Soft Competencies",
-        "rincian": "Memiliki Hasil Penilaian Soft Competencies yang masih berlaku pada kategori High",
+        "rincian": "Diutamakan memiliki Hasil Penilaian Soft Competencies yang masih berlaku pada kategori High",
         "Skor": ""
       },
 
@@ -117,32 +117,32 @@
   "jadwal": [
     {
       "tahap": "Pendaftaran Job Tender",
-      "tanggal": "16 Maret 2026",
+      "tanggal": "14-16 Maret 2026",
       "waktu": "Tutup Pkl. 12.00 WIB"
     },
     {
       "tahap": "Pelaksanaan Seleksi Administrasi",
-      "tanggal": "16-17 Maret 2026"
+      "tanggal": "to be announced"
     },
     {
       "tahap": "Pengumuman Hasil Seleksi",
-      "tanggal": "18 Maret 2026"
+      "tanggal": "to be announced"
     },
     {
       "tahap": "Batas Pengumpulan PBA",
-      "tanggal": "22 Maret 2026"
+      "tanggal": "to be announced"
     },
     {
       "tahap": "Wawancara PBA",
-      "tanggal": "25-27 Maret 2026"
+      "tanggal": "to be announced"
     },
     {
       "tahap": "Penyampaian Laporan Hasil Job Tender",
-      "tanggal": "30 Maret 2026"
+      "tanggal": "to be announced"
     },
     {
       "tahap": "Pengumuman Pemenang Job Tender",
-      "tanggal": "31 Maret 2026"
+      "tanggal": "to be announced"
     }
   ]
 }
