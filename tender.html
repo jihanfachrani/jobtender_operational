@@ -23,56 +23,83 @@
 
 <p><b>Periode :</b> <span id="periodeTender"></span></p>
 
-<p><b>Batas Pendaftaran :</b> <span id="batasTender"></span></p>
-
 </header>
 
 <div class="container">
+
+<!-- ======================
+JABATAN
+====================== -->
 
 <h2>Daftar Jabatan yang Dibuka</h2>
 
 <table>
 
 <thead>
-
 <tr>
 <th>Jabatan</th>
 <th>Lokasi</th>
 <th>Level</th>
 </tr>
-
 </thead>
 
 <tbody id="jabatanTable"></tbody>
 
 </table>
 
+
+<!-- ======================
+SELEKSI ADMINISTRATIF
+====================== -->
+
 <h2>Seleksi Administratif</h2>
 
-<h3>Mandatory</h3>
+<div class="card admin-card">
 
-<div id="mandatory" class="card-container"></div>
+<h3>Tahapan Seleksi Administratif di Posisi Operasional</h3>
 
-<h3>Ranking</h3>
+<table class="admin-table">
 
-<div id="ranking" class="card-container"></div>
+<thead>
+<tr>
+<th>Aspek Penilaian</th>
+<th>Rincian</th>
+<th>Metode</th>
+<th>Teknis / Skor</th>
+</tr>
+</thead>
 
-<h2>Tahap Wawancara</h2>
+<tbody id="adminTable"></tbody>
+
+</table>
+
+</div>
+
+
+<!-- ======================
+TAHAP WAWANCARA
+====================== -->
+
+<h2>Wawancara</h2>
 
 <div id="wawancara" class="card-container"></div>
+
+
+
+<!-- ======================
+JADWAL
+====================== -->
 
 <h2>Jadwal Seleksi</h2>
 
 <table>
 
 <thead>
-
 <tr>
 <th>Tahap</th>
 <th>Tanggal</th>
 <th>Waktu</th>
 </tr>
-
 </thead>
 
 <tbody id="jadwalTable"></tbody>
@@ -84,5 +111,4 @@
 <script src="js/script.js"></script>
 
 </body>
-
 </html>

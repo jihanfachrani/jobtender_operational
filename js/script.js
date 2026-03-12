@@ -3,13 +3,17 @@ async function loadTender(){
 const response = await fetch("data/tender.json")
 const data = await response.json()
 
-/* informasi tender */
+/* =========================
+   INFORMASI TENDER
+========================= */
 
 document.getElementById("judulTender").innerText = data.informasi_tender.judul
 document.getElementById("periodeTender").innerText = data.informasi_tender.periode
-document.getElementById("batasTender").innerText = data.informasi_tender.batas_pendaftaran
 
-/* jabatan */
+
+/* =========================
+   TAMPILKAN JABATAN
+========================= */
 
 const jabatanTable = document.getElementById("jabatanTable")
 
@@ -27,63 +31,49 @@ jabatanTable.innerHTML += `
 
 })
 
-/* mandatory */
 
-const mandatoryContainer = document.getElementById("mandatory")
+/* =========================
+   SELEKSI ADMINISTRATIF
+========================= */
 
+const adminTable = document.getElementById("adminTable")
+
+// Mandatory
 data.seleksi_administratif.mandatory.forEach(m => {
 
-mandatoryContainer.innerHTML += `
+adminTable.innerHTML += `
 
-<div class="card">
-
-<span class="badge mandatory">MANDATORY</span>
-
-<h3>${m.aspek}</h3>
-
-<p>${m.rincian}</p>
-
-<p><b>Teknis Penilaian</b></p>
-
-<div class="toggle-group">
-
-<button class="toggle-btn" onclick="setToggle(this)">YA</button>
-
-<button class="toggle-btn active" onclick="setToggle(this)">TIDAK</button>
-
-</div>
-
-</div>
+<tr>
+<td>${m.aspek}</td>
+<td>${m.rincian}</td>
+<td><span class="badge mandatory">${m.metode}</span></td>
+<td>${m.teknis}</td>
+</tr>
 
 `
 
 })
 
-/* ranking */
-
-const rankingContainer = document.getElementById("ranking")
-
+// Ranking
 data.seleksi_administratif.ranking.forEach(r => {
 
-rankingContainer.innerHTML += `
+adminTable.innerHTML += `
 
-<div class="card">
-
-<span class="badge ranking">RANKING</span>
-
-<h3>${r.aspek}</h3>
-
-<p>${r.rincian}</p>
-
-<p><b>Bobot :</b> ${r.bobot}</p>
-
-</div>
+<tr>
+<td>${r.aspek}</td>
+<td>${r.rincian}</td>
+<td><span class="badge ranking">Ranking</span></td>
+<td>${r.bobot}</td>
+</tr>
 
 `
 
 })
 
-/* wawancara */
+
+/* =========================
+   TAHAP WAWANCARA
+========================= */
 
 const wawancaraContainer = document.getElementById("wawancara")
 
@@ -103,7 +93,10 @@ wawancaraContainer.innerHTML += `
 
 })
 
-/* jadwal */
+
+/* =========================
+   JADWAL
+========================= */
 
 const jadwalTable = document.getElementById("jadwalTable")
 
@@ -126,16 +119,3 @@ jadwalTable.innerHTML += `
 }
 
 loadTender()
-
-/* toggle button */
-
-function setToggle(btn){
-
-const group = btn.parentElement
-const buttons = group.querySelectorAll(".toggle-btn")
-
-buttons.forEach(b => b.classList.remove("active"))
-
-btn.classList.add("active")
-
-}
