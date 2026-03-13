@@ -60,15 +60,14 @@
         "teknis": "Ya / Tidak"
       },
 
+      
       {
         "aspek": "Skor TOEFL",
-        "rincian": "Bagi kandidat dengan perbedaan tingkat jabatan lebih dari satu level dari jabatan yang dituju, maka diberlakukan ketentuan sebagai berikut: 
-        1. Jabatan sasaran Manager Operasi/ Manager TWR-APP/TMA memiliki minimal TOEFL 550,
-        2. Jabatan sasaran Manager Perencanaan dan Evaluasi Komunikasi Penerbangan / Manager Komunikasi Penerbangan memiliki minimal TOEFL 500. 
-        Dokumen dapat disampaikan melalui email HR (hr.development@airnavindonesia.co.id) paling lambat -",
+        "rincian": "Bagi kandidat dengan perbedaan tingkat jabatan lebih dari satu level dari jabatan yang dituju, maka diberlakukan ketentuan sebagai berikut:<ol><li>Jabatan sasaran Manager Operasi / Manager TWR-APP/TMA memiliki minimal TOEFL 550</li><li>Jabatan sasaran Manager Perencanaan dan Evaluasi Komunikasi Penerbangan / Manager Komunikasi Penerbangan memiliki minimal TOEFL 500</li></ol>Dokumen dapat disampaikan melalui email HR (hr.development@airnavindonesia.co.id) paling lambat --.",
         "metode": "Mandatory",
         "teknis": "Ya / Tidak"
-      },
+      }
+     
 
       {
         "aspek": "Rekomendasi Atasan",
