@@ -115,6 +115,7 @@ background:#f9f9f9;
 
 }
 
+
 /* =====================
 CARD CONTAINER
 ===================== */
@@ -155,6 +156,16 @@ transform:translateY(-5px);
 
 margin-top:0;
 
+}
+
+.card ol{
+margin-top:10px;
+padding-left:20px;
+}
+
+
+.card li{
+margin-bottom:6px;
 }
 
 /* =====================
